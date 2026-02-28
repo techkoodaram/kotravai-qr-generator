@@ -122,6 +122,42 @@ const INITIAL_PRODUCTS: Product[] = [
     ]
   },
   {
+    id: 'deep-link-1',
+    name: 'Heritage Wellness Hamper',
+    category: 'Food',
+    origin: 'India',
+    detailedOrigin: 'Tenkasi Heritage Center',
+    countryCode: 'IN',
+    producedDate: '2026-02-25',
+    description: 'A curated collection of Southern Tamil Nadu wellness products, featuring our signature honey, limes, and jaggery.',
+    imageUrl: 'https://images.unsplash.com/photo-1584063576392-f013da06798a?auto=format&fit=crop&q=80&w=800',
+    ingredientIds: ['1', '2', '3'],
+    externalIngredients: [
+      { id: 'ext-package', name: 'Handmade Bamboo Box', origin: 'Kanyakumari Cluster' }
+    ],
+    logistics: [
+      { id: 'l-h1', status: 'Assembly', location: 'Tenkasi Center', date: '2026-02-25' },
+      { id: 'l-h2', status: 'Final Check', location: 'Regional HQ', date: '2026-02-26' }
+    ]
+  },
+  {
+    id: 'pure-nat-1',
+    name: 'Sukkampatti Raw Turmeric',
+    category: 'Spices',
+    origin: 'India',
+    detailedOrigin: 'Sukkampatti Village, Tenkasi',
+    countryCode: 'IN',
+    producedDate: '2026-02-15',
+    description: 'High-curcumin raw turmeric roots harvested from natural farms using ancient techniques.',
+    imageUrl: 'https://images.unsplash.com/photo-1615485290382-441e4d0c9cb5?auto=format&fit=crop&q=80&w=800',
+    ingredientIds: [],
+    externalIngredients: [],
+    logistics: [
+      { id: 'l-t1', status: 'Harvested', location: 'Sukkampatti Farm', date: '2026-02-15' },
+      { id: 'l-t2', status: 'Sun Dried', location: 'Farm Open Ground', date: '2026-02-18' }
+    ]
+  },
+  {
     id: '4',
     name: 'Courtallam Herbal Spice Mix',
     category: 'Spices',

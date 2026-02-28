@@ -1269,6 +1269,10 @@ export default function App() {
   const [products, setProducts] = useState<Product[]>(INITIAL_PRODUCTS);
   const [categories, setCategories] = useState<string[]>(INITIAL_CATEGORIES);
 
+  useEffect(() => {
+    document.title = "Aathi | Digital Product Passport";
+  }, []);
+
   return (
     <BrowserRouter>
       <div className="min-h-screen bg-[#F5F5F4] font-sans text-stone-900">
